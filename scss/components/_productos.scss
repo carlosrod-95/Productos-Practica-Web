@@ -1,0 +1,212 @@
+
+.productos{
+    grid-row: 3 / 4;
+    grid-column: 2 / 7;
+    margin: 20px 20px 50px 20px;
+
+    &-titulo{
+        background-color: color(tertiary);
+        margin: 50px 0px 50px 0px;
+
+        &-texto{
+            text-align: center;
+            color: color(secondary);
+            padding-top: 15px;
+            font-size: size(xl);
+        }
+    }
+
+    &-uno{
+        width: 100%;
+        height: 450px;
+        display: flex;
+
+        &-imagen{
+            width: 30%;
+        }
+
+        &-texto{
+            margin: 20px;
+
+            &-titulo{
+                @include tituloProductos;
+            }
+
+            &-parrafo1{
+                @include parrafoProductos;
+            }
+
+            &-parrafo2{
+                @include parrafoProductos;
+            }
+
+            &-link{
+                margin: 20px 0px 20px 0px;
+                
+                &-texto{
+                @include linkTextoProductos;
+
+                    &:hover{
+                        @include hoverLink;
+                    }
+                }
+            }
+        }
+    }
+
+    &-dos{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        margin-top: 50px;
+
+        &-imagen{
+            width: 30%;
+        }
+
+        &-texto{
+            margin: 20px;
+
+            &-titulo{
+                @include tituloProductos;
+            }
+
+            &-parrafo1{
+                @include parrafoProductos;
+            }
+
+            &-parrafo2{
+                @include parrafoProductos;
+            }
+
+            &-link{
+                margin: 20px 0px 20px 0px;
+                
+                &-texto{
+                @include linkTextoProductos;
+
+                    &:hover{
+                        @include hoverLink;
+                    }
+                }
+            }
+        }
+    }
+
+    &-tres{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        margin-top: 50px;
+
+        &-imagen{
+            width: 30%;
+        }
+
+        &-texto{
+            margin: 20px;
+
+            &-titulo{
+                @include tituloProductos;
+            }
+
+            &-parrafo1{
+                @include parrafoProductos;
+            }
+
+            &-parrafo2{
+                @include parrafoProductos;
+            }
+
+            &-link{
+                margin: 20px 0px 20px 0px;
+                
+                &-texto{
+                @include linkTextoProductos;
+
+                    &:hover{
+                        @include hoverLink;
+                    }
+                }
+            }
+        }
+    }
+
+    &-cuatro{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        margin-top: 50px;
+
+        &-imagen{
+            width: 30%;
+        }
+
+        &-texto{
+            margin: 20px;
+
+            &-titulo{
+                @include tituloProductos;
+            }
+
+            &-parrafo1{
+                @include parrafoProductos;
+            }
+
+            &-parrafo2{
+                @include parrafoProductos;
+            }
+
+            &-link{
+                margin: 20px 0px 20px 0px;
+                
+                &-texto{
+                @include linkTextoProductos;
+
+                    &:hover{
+                        @include hoverLink;
+                    }
+                }
+            }
+        }
+    }
+
+    &-cinco{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        margin-top: 50px;
+
+        &-imagen{
+            width: 30%;
+        }
+
+        &-texto{
+            margin: 20px;
+
+            &-titulo{
+                @include tituloProductos;
+            }
+
+            &-parrafo1{
+                @include parrafoProductos;
+            }
+
+            &-parrafo2{
+                @include parrafoProductos;
+            }
+
+            &-link{
+                margin: 20px 0px 20px 0px;
+                
+                &-texto{
+                @include linkTextoProductos;
+
+                    &:hover{
+                        @include hoverLink;
+                    }
+                }
+            }
+        }
+    }
+}

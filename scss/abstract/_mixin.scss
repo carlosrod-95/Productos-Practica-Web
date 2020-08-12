@@ -1,0 +1,36 @@
+@mixin flexPosition($justCont: center, $alignIte: center) {
+    display: flex;
+    justify-content: $justCont;
+    align-items: $alignIte;
+}
+
+@mixin tituloProductos{
+    text-align: center;
+    padding-top: 5px;
+    color: color(secondary);
+    background-color: color(primary);
+    font-size: size(md);
+}
+
+@mixin parrafoProductos {
+    text-align: justify;
+    padding: 20px 0px 20px 0px;  
+    font-size: size(sm);
+}
+
+@mixin linkTextoProductos{
+    border: 1px solid color(primary);
+    text-decoration: none;
+    color: color(secondary);
+    background-color: color(primary);
+    border-radius: 5px;
+    padding: 5px;
+    transition: all .2s;
+    font-size: size(sm);
+}
+
+@mixin hoverLink{
+    background-color: color(secondary);
+    color: color(primary);
+    
+}
